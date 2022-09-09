@@ -49,6 +49,7 @@ nav img{
     color: white;
     text-decoration: none;
     font-family: 'Varela Round', sans-serif;
+    padding:10px;
 }
 
 .header li a:hover{
