@@ -50,6 +50,13 @@ nav img{
     text-decoration: none;
     font-family: 'Varela Round', sans-serif;
 }
+
+.header li a:hover{
+     color:black;
+     background-color: white;
+     opacity: 0.8;
+     border-radius:5px; 
+}
 .text-box{
     min-height: 59vh;
     background-color: rgba(0, 0, 0, 0.5);
