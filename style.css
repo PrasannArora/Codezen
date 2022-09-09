@@ -49,14 +49,6 @@ nav img{
     color: white;
     text-decoration: none;
     font-family: 'Varela Round', sans-serif;
-    padding:10px;
-}
-
-.header li a:hover{
-     color:black;
-     background-color: white;
-     opacity: 0.8;
-     border-radius:5px; 
 }
 .text-box{
     min-height: 59vh;
@@ -140,6 +132,19 @@ nav .fa-solid{
     padding: 13px;
     font-size: 17px;
 }
+.parallax {
+  /* The image used */
+  background-image: url("images/neon3.png");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .mentors{
     font-size: 30px;
     padding-top: 14px;
@@ -153,9 +158,10 @@ nav .fa-solid{
     justify-content: space-between;
 }
 .names{
-    flex-basis: 31%;
+    margin: 2%;
+    flex-basis: 25%;
     width: 22%;
-    background: black;
+    background-image: linear-gradient(to right, #ff00cc , #333399);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -163,14 +169,16 @@ nav .fa-solid{
     color: white;
     transition: 0.5s;
     overflow: hidden;
+    height: 500px;
 }
 .names:hover{
     box-shadow: 0 0 20px 0 rgba(0, 0, 0 0);
+    background-image: linear-gradient(to right, #b92b27 , #1565C0);
 
 }
 .names img{
     border-radius: 50%;
-    height: 10%;
+    height: 50%;
 }
 @media(max-width: 700px){
     .row{
