@@ -47,7 +47,7 @@ nav img{
 }
 .text-box{
     min-height: 59vh;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     font-family: 'Varela Round', sans-serif;
     display: flex;
@@ -55,6 +55,9 @@ nav img{
     width: 30%;
     border-radius: 12px;
     flex-direction: column;
+}
+.text-box p{
+    padding: 9%;
 }
 .text-box h1 {
     font-size: 80px;
@@ -76,6 +79,7 @@ nav img{
     position: relative;
     cursor: pointer;
     color: white;
+    margin: 5%;
 }
 nav .fa-solid{
     display: none;
