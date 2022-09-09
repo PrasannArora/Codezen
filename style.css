@@ -141,6 +141,7 @@ nav .fa-solid{
 }
 .names{
     flex-basis: 31%;
+    width: 22%;
     background: black;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -148,10 +149,15 @@ nav .fa-solid{
     box-sizing: border-box;
     color: white;
     transition: 0.5s;
+    overflow: hidden;
 }
 .names:hover{
     box-shadow: 0 0 20px 0 rgba(0, 0, 0 0);
 
+}
+.names img{
+    border-radius: 50%;
+    height: 10%;
 }
 @media(max-width: 700px){
     .row{
