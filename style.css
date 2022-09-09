@@ -51,6 +51,16 @@ nav img{
     font-family: 'Varela Round', sans-serif;
     
 }
+#navLinks a{
+    padding:10px;
+}
+
+#navLinks a:hover{
+    color:black;
+    background-color: white;
+    opacity: 0.8;
+    border-radius:5px;
+}
     
 .text-box{
     min-height: 59vh;
