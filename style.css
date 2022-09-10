@@ -142,7 +142,11 @@ nav .fa-solid{
 }
 .initiative p{
     padding: 13px;
-    font-size: 17px;
+    font-size: 22px;
+}
+
+.initiative h2{
+    font-size:30px;
 }
 .parallax {
   /* The image used */
