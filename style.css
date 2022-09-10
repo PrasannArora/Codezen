@@ -173,7 +173,7 @@ nav .fa-solid{
     margin: 2%;
     flex-basis: 25%;
     width: 22%;
-    background-image: linear-gradient(to right, #ff00cc , #333399);
+    background-image: linear-gradient(to right,  #b92b27 , #1565C0);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -185,7 +185,7 @@ nav .fa-solid{
 }
 .names:hover{
     box-shadow: 0 0 20px 0 rgba(0, 0, 0 0);
-    background-image: linear-gradient(to right, #b92b27 , #1565C0);
+    background-image: linear-gradient(to right, #ff00cc , #333399);
 
 }
 .names img{
