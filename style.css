@@ -70,14 +70,14 @@ nav img{
 .clubs{
     display: none;
 }
-#navLinks a:hover .clubs{
+.nav-links ul li:hover .clubs
+{
     display: block;
     position: absolute;
     background-color: gray;
     margin-top: 15px;
     margin-left: -15px;
 }
-    
     
 .text-box{
     min-height: 59vh;
@@ -152,6 +152,7 @@ nav .fa-solid{
     width: 100%;
     margin: auto;
     background-image:linear-gradient(black , white);
+    font-family: 'Varela Round', sans-serif;
 }
 .initiative h1{
     font-size: 55px;
@@ -233,6 +234,24 @@ nav .fa-solid{
         flex-direction: column;
     }
 }
+.contacts{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, Maroon , black);
+}
+.contacts li{
+    list-style: none;
+    font-family: 'Varela Round', sans-serif;
+}
+.contacts img{
+    width: 150px;
+    position: relative;
+    padding-bottom: 35px;
+}
+.heading li{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
 .footer-1{
     position:relative;
     display:flex;
@@ -273,3 +292,4 @@ footer p{
 .end p{
      font-size: small;
 }
+
