@@ -67,17 +67,6 @@ nav img{
     opacity: 0.8;
     border-radius:5px;
 }
-.clubs{
-    display: none;
-}
-.nav-links ul li:hover .clubs
-{
-    display: block;
-    position: absolute;
-    background-color: gray;
-    margin-top: 15px;
-    margin-left: -15px;
-}
     
 .text-box{
     min-height: 59vh;
@@ -114,6 +103,12 @@ nav img{
     cursor: pointer;
     color: white;
     margin: 5%;
+}
+.join-btn:hover{
+    color:black;
+    background-color: white;
+    opacity: 0.8;
+    border-radius:5px;
 }
 nav .fa-solid{
     display: none;
@@ -229,6 +224,15 @@ nav .fa-solid{
     border-radius: 50%;
     height: 50%;
 }
+.names  .fa-brands:hover{
+size: 150%;
+color:red
+}
+.names .fa-regular:hover{
+    color: red;
+    width: 10px;
+    height: 10px;
+}
 @media(max-width: 700px){
     .row{
         flex-direction: column;
@@ -279,6 +283,9 @@ footer  .social-icon li a{
     padding:20px;
     color:white;
     font-size: 50px;
+}
+footer  .social-icon li a:hover{
+    color: blue;
 }
 
 footer p{
