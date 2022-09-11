@@ -251,4 +251,8 @@ footer p{
 }
 .end{
     background-color: black;
+    
+}
+.end p{
+     font-size: small;
 }
