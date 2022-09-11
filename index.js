@@ -5,3 +5,15 @@ function showMenu() {
 function hideMenu() {
     navLinks.style.right = "-200px";
 }
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navLinks").style.top = "0";
+    document.getElementById("logod").style.top = "0";
+  } else {
+    document.getElementById("navLinks").style.top = "-250px";
+    document.getElementById("logod").style.top = "-250px";
+  }
+  prevScrollpos = currentScrollPos;
+}
