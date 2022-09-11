@@ -25,6 +25,12 @@ nav img{
     border-radius: 100%;
 
 }
+#navLinks{
+    transition: top 0.6s;
+}
+#logod{
+    transition: top 0.6s;
+}
 .logo{
     position: fixed;
     font-weight: bolder;
