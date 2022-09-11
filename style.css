@@ -216,7 +216,7 @@ nav .fa-solid{
         flex-direction: column;
     }
 }
-footer{
+.footer-1{
     position:relative;
     display:flex;
     flex-direction:column;
@@ -224,8 +224,8 @@ footer{
     align-items: center;
     width:100%;
     background:linear-gradient(to right,#2d0b00,#00093c );
-     min-height:170px; 
-    border-top-left-radius: 125px;
+    min-height:170px; 
+  
     
 }
 footer .social-icon{
@@ -248,4 +248,7 @@ footer  .social-icon li a{
 footer p{
     font-size:12px;
     color:white;
+}
+.end{
+    background-color: black;
 }
