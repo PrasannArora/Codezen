@@ -67,6 +67,17 @@ nav img{
     opacity: 0.8;
     border-radius:5px;
 }
+.clubs{
+    display: none;
+}
+#navLinks a:hover .clubs{
+    display: block;
+    position: absolute;
+    background-color: gray;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+    
     
 .text-box{
     min-height: 59vh;
